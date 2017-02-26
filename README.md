@@ -50,7 +50,9 @@ The insipration for this project came from a need to reduce sexism in workplaces
 We love contributors. We are open source and every contribution helps. Please read [CONTRIBUTE.md](CONTRIBUTE.md) for how to contribute to our project.
 
 ## Licensing
-This project is protected under Open Software License 3.0
+This project is protected under GNU General Public License 3.
+
+Copyright (C) 2007 Free Software Foundation, Inc. http://fsf.org/ Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
 
 Please read [License.md](LICENSE.md)
 
