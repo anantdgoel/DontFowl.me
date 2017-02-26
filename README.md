@@ -41,8 +41,31 @@ In the root directory of this git repository, run the following
 ## Why is it called 'DontFowl.me'?
 The insipration for this project came from a need to reduce sexism in workplaces, espcially after we read on what Susan Fowler had to put up with at Uber. We decided to automate detection of sexism at workplaces to keep people accountable, especially in day-to-day communications such as email exchanges. Our love for puns naturally lead to the name 'Dont Fowl' :wink:.
 
-## [License] (LICENSE.md)
+## [Contributors] (CONTRIBUTORS.md)
+1. Anant Goel
+2. Danish Arsalan
 
+
+## Contributing to this project
+We love contributors. We are open source and every contribution helps. Please read [CONTRIBUTE.md](CONTRIBUTE.md) for how to contribute to our project.
+
+## Licensing
+This project is protected under Open Software License 3.0
+
+Please read [License.md](License.md)
+
+## Roadmap
+Port to other languages
+
+Improve effeciency (currently we are at O(n^3))
+
+Add more training data to better detect sexism
+
+Implement a more robust API with more endpoints
+
+Create exhaustive documentation
+
+Publish a paper to explain how this LSF model works and why it is better than n-words for syntactical NLP
 
 ## Thanks
 Stanford CoreNLP servers released under GNU-GPL-3
