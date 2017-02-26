@@ -57,17 +57,13 @@ Copyright (C) 2007 Free Software Foundation, Inc. http://fsf.org/ Everyone is pe
 Please read [License.md](LICENSE.md)
 
 ## Roadmap
-Port to other languages
-
-Improve effeciency (currently we are at O(n^3))
-
-Add more training data to better detect sexism
-
-Implement a more robust API with more endpoints
-
-Create exhaustive documentation
-
-Publish a paper to explain how this LSF model works and why it is better than n-words for syntactical NLP
+* Port to other languages
+* Improve effeciency (currently we are at O(n^3))
+* Add more training data to better detect sexism
+* Implement a more robust API with more endpoints
+* Create exhaustive documentation
+* Publish a paper to explain how this LSF model works and why it is better than n-words for syntactical NLP
+* Write tests
 
 ## Thanks
 Stanford CoreNLP servers released under GNU-GPL-3
