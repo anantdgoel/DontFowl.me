@@ -13,5 +13,12 @@ Here is comparison of our Lexical approach to other common apporaches
 
 DontFowl.me can also be used as a more general NLP library to do parts-of-speech tagging and finding dependcies between those parts-of-speech.
 
+## Usage
+#### RESTful API
+Our dedicated servers are hosted at www.dontfowl.me and can be queried using a HTTP POST request. Our 'golang' scripts query our servers for you. In case you want to query them youselves, the following methods work
+'wget --post-data [TEXT TO ANAYLSE] 'localhost:9000/?properties={"annotators":"tokenize,ssplit,pos","outputFormat":"json"}' -O -'
+#### Go scripts
+
+
 ## Why is it called 'DontFowl.me'?
 The insipration for this project came from a need to reduce sexism in workplaces, espcially after we read on what Susan Fowler had to put up with at Uber. We decided to automate detection of sexism at workplaces to keep people accountable, especially in day-to-day communications such as email exchanges. Our love for puns naturally lead to the name 'Dont Fowl' :wink:.
