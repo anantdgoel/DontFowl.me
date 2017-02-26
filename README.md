@@ -16,18 +16,35 @@ DontFowl.me can also be used as a more general NLP library to do parts-of-speech
 ## Usage
 #### RESTful API
 **Warning**: Our lexical model in only available through go scripts, not the API. The API only has Parts of speech and depedency trees.
+
 Our dedicated servers are hosted at www.dontfowl.me and can be queried using a HTTP POST request. Our `golang` scripts query our servers for you. 
+
 In case you want to query them youselves, the following methods work:
+
 `wget --post-data [TEXT TO ANAYLSE] 'dontfowl.me/?properties={"annotators":"tokenize,ssplit,pos,depparse, parse","outputFormat":"json"}' -O -`
+
 or if you prefer cURL
+
 `curl --data [TEXT TO ANALYSE] 'http://dontfowl.me/?properties={%22annotators%22%3A%22tokenize%2Cssplit%2Cpos%22%2C%22outputFormat%22%3A%22json%22}' -o -`
+
 Just replace [TEXT TO ANALYSE] with your own Strings.
 
 #### Go scripts
 In the root directory of this git repository, run the following
+
 `go build` and `go install`
+
 `cd ../src`
+
 `nlp [TEXT TO ANALYSE]`
 
 ## Why is it called 'DontFowl.me'?
 The insipration for this project came from a need to reduce sexism in workplaces, espcially after we read on what Susan Fowler had to put up with at Uber. We decided to automate detection of sexism at workplaces to keep people accountable, especially in day-to-day communications such as email exchanges. Our love for puns naturally lead to the name 'Dont Fowl' :wink:.
+
+## [License] (LICENSE.md)
+
+
+## Thanks
+Stanford CoreNLP servers released under GNU-GPL-3
+
+Manning, Christopher D., Mihai Surdeanu, John Bauer, Jenny Finkel, Steven J. Bethard, and David McClosky. 2014. The Stanford CoreNLP Natural Language Processing Toolkit In Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics: System Demonstrations, pp. 55-60. 
