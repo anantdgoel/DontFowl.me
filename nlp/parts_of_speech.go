@@ -18,12 +18,12 @@ func main() {
         fmt.Print(err)
         return
     }
-    if res, err = tagger.Tag("What is your name?"); err != nil {
+    if res, err = tagger.Tag("It is aston martin and you are a crying pig"); err != nil {
         fmt.Print(err)
         return
     }
     for _, r := range res {
-        fmt.Println(r.Word, r.TAG, r.Description())
+        fmt.Println(r.Word, r.TAG)
     }
 
 }
