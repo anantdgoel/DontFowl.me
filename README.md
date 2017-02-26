@@ -9,7 +9,7 @@ Here is a small sample of DontFowl.me's power
 
 Here is comparison of our Lexical approach to other common apporaches
 
-![](http://imgur.com/a/ytrrw
+![](http://imgur.com/lf9kYyL.png)
 
 DontFowl.me can also be used as a more general NLP library to do parts-of-speech tagging and finding dependcies between those parts-of-speech.
 
