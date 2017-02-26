@@ -52,7 +52,7 @@ We love contributors. We are open source and every contribution helps. Please re
 ## Licensing
 This project is protected under Open Software License 3.0
 
-Please read [License.md](License.md)
+Please read [License.md](LICENSE.md)
 
 ## Roadmap
 Port to other languages
