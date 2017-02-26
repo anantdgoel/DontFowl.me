@@ -7,6 +7,6 @@ DontFowl.me can also be used as a more general NLP library to do parts-of-speech
 
 Here is a small sample of DontFowl.me's power
 
-![Example1](https://giphy.com/gifs/gGkeFv2E278Fa)
+![](http://i.giphy.com/gGkeFv2E278Fa.gif)
 
 
