@@ -225,7 +225,11 @@ var offensivePhrases = [
   "deserve rape",
   "bad girl",
   "rape is good",
-  "what were you wearing?"
+  "what were you wearing?",
+  "what was she wearing",
+  "what is she wearing",
+  "she can't code",
+  "can girls do that?"
 ];
 
 function setCaretPosition(elemId, caretPos) {
