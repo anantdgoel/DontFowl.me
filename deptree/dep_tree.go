@@ -76,16 +76,21 @@ func main() {
 	
 
 	for i := range data.Sentences {
-		data.Sentences[i].Parse = strings.Replace(data.Sentences[i].Parse, "(", "{", -1)
-		data.Sentences[i].Parse = strings.Replace(data.Sentences[i].Parse, ")", "}", -1)
+		//data.Sentences[i].Parse = strings.Replace(data.Sentences[i].Parse, "(", "{", -1)
+		//data.Sentences[i].Parse = strings.Replace(data.Sentences[i].Parse, ")", "}", -1)
     	re_inside_whtsp := regexp.MustCompile(`[\s\p{Zs}]{2,}`)
     	data.Sentences[i].Parse = re_inside_whtsp.ReplaceAllString(data.Sentences[i].Parse, " ")
     	fmt.Println(data.Sentences[i].Parse)
-    	tokens, err := parser.ParseExpr(data.Sentences[i].Parse)
+    	tokens, err := parser.ParseExpr("(ROOT (S (NP (DT, The) (NN, fox)) (VP (VBD, jumped) (PP (IN, over) (NP (DT, the) (NN, dog))))))")
     	if err != nil {
     		fmt.Println(err)
     	}
-    	fmt.Println(tokens)
+
+    	fmt.Println(tokens.Pos())
+
+    	fmt.Println(tokens.exprNode())
+
+		fmt.Println(tokens.End())    	
 	}
 
 	dep_tree_info := [][]string{}
